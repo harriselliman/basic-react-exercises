@@ -5,6 +5,10 @@ import UserInput from './UserInput/UserInput';
 import UserOutput from './UserOutput/UserOutput';
 
 class App extends Component {
+  state = {
+    username: 'VVD'
+  }
+
   render() {
     return (
       <div className="App">
