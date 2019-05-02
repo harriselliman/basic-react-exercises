@@ -23,7 +23,8 @@ class App extends Component {
         </ol>
         <p>Hint: Keep in mind that JavaScript strings are basically arrays!</p>
         <hr />
-        <input type="text"
+        <input 
+          type="text"
           onChange={this.inputChangedHandler}
           value={this.state.userInput}/>
       </div>
