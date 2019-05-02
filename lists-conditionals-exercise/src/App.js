@@ -27,6 +27,7 @@ class App extends Component {
           type="text"
           onChange={this.inputChangedHandler}
           value={this.state.userInput}/>
+          <p>{this.state.userInput}</p>
       </div>
     );
   }
