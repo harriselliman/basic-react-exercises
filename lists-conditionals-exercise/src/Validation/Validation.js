@@ -7,3 +7,5 @@ const validation = (props) => {
         </div>
     )
 }
+
+export default validation;
