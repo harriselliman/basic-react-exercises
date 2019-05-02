@@ -13,8 +13,8 @@ class App extends Component {
   }
 
   render() {
-    const charList = this.state.userInput.split('').map(ch => {
-      return <Char character={ch} />;
+    const charList = this.state.userInput.split('').map((ch, index) => {
+      return <Char character={ch} key={index}/>;
     });
 
     return (
